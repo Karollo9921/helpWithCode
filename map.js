@@ -85,7 +85,7 @@ const tour2 = new Tournament('chess', 'tt', 'des 2');
 // tour2.saveToJSON()
 
 
-const tours = Tournament.editTour('1593595909353', 'yoyoyo', 'ww', 'des 3');
+Tournament.editTour('1593595909353', 'yoyoyo', 'ww', 'des 3');
 
 
 Tournament.displayFromJSON((tournaments) => {
